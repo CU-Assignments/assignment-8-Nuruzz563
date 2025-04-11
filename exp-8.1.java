@@ -27,7 +27,7 @@ public class LoginServlet extends HttpServlet {
 
         out.println("<div class='message-box'>");
 
-        if ("Sourov".equals(username) && "1234".equals(password)) {
+        if ("Nuruzzaman".equals(username) && "1234".equals(password)) {
             out.println("<h2>Welcome, " + username + "!</h2>");
         } else {
             out.println("<h3>Login failed. Invalid username or password.</h3>");
